@@ -1,0 +1,102 @@
+body{
+  background-color:rgb(246, 246, 241);
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #eaeff4;
+}
+
+.logo img {
+  height: 70px;
+}
+
+.name h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Navigation Buttons */
+.nav-links {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 40px;
+}
+
+.main-box {
+  width: 55%;
+}
+
+.info-image img {
+  width: 350px;
+  height: auto;
+}
+
+/* Empower heading */
+.empower {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* Responsive */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+}
+
+.main-box {
+  width: 55%;
+}
+
+.info-image img {
+  width: 400px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-box {
+    width: 90%;
+  }
+
+  .info-image img {
+    width: 90%;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+.name h1{
+  color:crimson;
+  font-size:40px;
+}
